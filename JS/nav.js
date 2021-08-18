@@ -1,13 +1,13 @@
 const changeHamburger = () => {
   if (
     document.getElementById("hamburger").src ==
-    "/img/hamburger.svg"
+    "../img/hamburger.svg"
   ) {
     document.getElementById("hamburger").src =
-      "/img/hamburger-close.svg";
+      "../img/hamburger-close.svg";
   } else {
     document.getElementById("hamburger").src =
-      "/img/hamburger.svg";
+      "../img/hamburger.svg";
   }
 
   var mobNav = document.getElementById("mobile-nav");
