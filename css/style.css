@@ -36,6 +36,11 @@ body {
   color: black;
   background: linear-gradient(to left, #f0f2f0, #000c40);
  }
+ .prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
 .header{
   font-weight: bolder;
 }
